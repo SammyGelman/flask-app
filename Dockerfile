@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:nightly-gpu
+# FROM tensorflow/tensorflow:nightly-gpu
+FROM tensorflow/tensorflow
 
 RUN pip3 install gunicorn
 RUN pip3 install pandas
